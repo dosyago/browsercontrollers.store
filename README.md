@@ -1,12 +1,12 @@
-# browsercontrollers.store
+# [browsercontrollers.store](STORE.md)
 
-:zap: BrowserController - A new distribution channel for your apps. More control than a browser extension, more lightweight than an Electron app. Just as powerful as Node.
+:zap: BrowserController - A new [distribution channel](STORE.md) for your apps. More control than a browser extension, more lightweight than an Electron app. Just as powerful as Node.
 
 ## Get started
 
 You can develop for Chrome right away, without the need to pass the Chrome Webstore, nor limit yourself to the extension APIs. You can distribute on all Desktop platforms, and package as a binary, or npm global. 
 
-To get started, fork the browsercontroller-boilerplate. When you're done submit your app to the store.
+To get started, fork the [browsercontroller-boilerplate](https://github.com/dosyago/browsercontroller-boilerplate). When you're done submit your app to the store.
 
 ## Fork the boilerplate
 
@@ -20,7 +20,7 @@ Once you have your app, make sure you pass our requirements:
 - You must package as a binary (using either the built-in nexe script, or using zeit/pkg yourself) for windows, mac and linux.
 - You must upload the binaries to your releases page
 
-Then, open a PR to add your app to `STORE.md`, following the format there. Make sure to include:
+Then, open a PR to add your app to [`STORE.md`](STORE.md), following the format there. Make sure to include:
 
 - your app name
 - a brief description (limit is 250 words)
